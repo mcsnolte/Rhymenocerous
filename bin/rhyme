@@ -1,0 +1,6 @@
+#!/usr/bin/env perl
+
+use Rhymenocerous;
+my $rhyme = Rhymenocerous->new->gen_rhyme(@ARGV);
+print( $rhyme, "\n" ) if $rhyme;
+
